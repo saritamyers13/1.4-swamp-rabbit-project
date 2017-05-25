@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Oleo Script";
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oleo Script'), url("http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2") format('woff2');
+}
+
+@font-face {
+  font-family:'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poiret One'), url("http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2") format('woff2');
+}
+
+body{
+  width: 1280px;
+  height: 1415px;
+  margin: 0;
+}
+
+.site-header {
+  color: white;
+  background-image: url("/Users/saramyers/Downloads/CSS layout and fonts-Assessment/img/header-background.jpg");
+  height: 512px;
+  width: 1280px;
+  text-align: center;
+  position: static;
+  font-family: "Oleo Script";
+  font-style: normal;
+  font-weight: 400;
+}
+
+div img {
+  margin-left: 900px;
+  width: 200px;
+  height: 260px;
+  z-index: 1;
+}
+
+.main-heading {
+  font-family: "Oleo Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.divider {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#left-image{
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+}
+
+
+ul {
+  display: flex;
+  list-style: none;
+  align-content: center;
+  margin: 0 100px;
+}
+
+li img{
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+}
+
+.callout-msg{
+  background-color: #59966E;
+}
+
+.primary-text{
+  margin: 200px;
+  color: white;
+  padding: 5px;
+}
